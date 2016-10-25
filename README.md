@@ -1,19 +1,19 @@
 # python-chat-response-server
 I created this for a networking class. Here are the requirements
 
-Objectives
+Objectives:
 Gain experience with socket programming.
 Gain experience with client and server programs.
 Understand what goes into implementing protocols.
 Gain experience with HTTP and HTML client-server patterns.
 
-Instructions
+Instructions:
 Create a client and a server applications to talk with each other as well as the clients and servers of other class members. Project 1 is a very simple command driven client and server.
 
 This can be written in any programming language. In fact, since every class member is working off the same protocol, you should be able to interface with a client or server written in a different language without a problem. Recommended languages include Python, C#, C/C++, Ruby, Java, Perl,etc.
 
-Specifications
-Server
+Specifications:
+Server:
 Open a listener on TCP port 9020.
 Implement the server such that (all client commands are case sensitive):
 Client open receives a response of "Welcome to <your name>'s chat room<cr><lf>"
@@ -36,7 +36,7 @@ If a name hasn't been set use "unknown"
 If you extend the protocol as part of your extra features, you must support the original protocol in a backwards compatible manner.
 Don't insert extra tabbing/formatting unless it is enabled via a protocol extension.
 
-Client
+Client:
 Run the client by typing: <yourclientprogram> <ipaddress> <port>
 Introduce yourself to the server (name: <name>)
 use help
